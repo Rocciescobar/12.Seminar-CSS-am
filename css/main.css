@@ -42,3 +42,42 @@ nav {
 .box-header {
   display: inline-block;
 }
+
+.logo-square {
+  width: 100px;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 2px;
+  width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 40px;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover, li a:hover {
+  color: rgb(246, 168, 49);
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(246, 168, 49);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: inherit;
+  padding: 10px;
+}
